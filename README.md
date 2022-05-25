@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/1994oscar/profile-card-component-main-chlg-07)
+- Live Site URL: [Add live site URL here](https://oscar-zuniga-profile-card-component.vercel.app/)
 
 ## My process
 

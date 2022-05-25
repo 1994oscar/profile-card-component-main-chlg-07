@@ -1,0 +1,95 @@
+.card{
+    background-color: $white;
+    border-radius: 2rem;
+}
+
+.card-profile{
+    width: 34rem;
+    height: auto;
+
+    &-header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+
+        &__image{
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+            width: 100%;
+            height: auto;
+        }
+
+        &__profile-image{
+            border-radius: 50%;
+            border-width: .5rem;
+            border-style: solid;
+            border-color: $white; 
+            overflow: hidden;      
+            margin-top: -5.6rem;
+            background-color: $white;
+            width: 11rem;
+            height: 11rem;
+
+            & img{
+                border-radius: 50%;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    &-body{
+        padding-top: 2rem;
+        text-align: center;
+
+        &__name{
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: $very-dark-desaturated-blue;
+            & span{
+                font-weight: 400;
+                color: $dark-gray;
+            }
+        }
+
+        &__country{
+            font-size: 1.6rem;
+            color: $dark-gray;
+        }
+    }
+
+    &-footer-stats{
+        height: auto;
+        border-top-width: .19rem;
+        border-top-color:  rgba($dark-gray, .5);
+        border-top-style: solid;
+        margin-top: 2rem;
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &__numbers{
+
+            & strong{
+                display: block;
+                text-align: center;
+                font-size: 1.9rem;
+                color: $very-dark-desaturated-blue;
+                font-weight: 700;
+                letter-spacing: .1rem;
+            }
+
+            & span{
+                text-align: center;
+                font-size: 1.3rem;
+                color: $dark-grayish-blue;
+                letter-spacing: .1rem;
+            }
+        }
+    }
+}
